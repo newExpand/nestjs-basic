@@ -14,13 +14,13 @@ Content-Type: application/json
 }
 
 ### 특정 게시글 조회
-GET {{server}}/blog/2
+GET {{server}}/blog/64e84ae982a3b8e5c8a3c643
 
 ### 게시글 삭제
-DELETE {{server}}/blog/2
+DELETE {{server}}/blog/64e84ae982a3b8e5c8a3c643
 
 ### 게시글 수정
-PUT {{server}}/blog/1
+PUT {{server}}/blog/64e84ae982a3b8e5c8a3c643
 Content-Type: application/json
 
 {
